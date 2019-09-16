@@ -64,6 +64,18 @@
 .type-884 .blog_title a {
   line-height: 1.25em;
   color: #343434;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.type-884 .blog_content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 5;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
 }
 .type-884 .blog_title a:hover {
   color: #fd907a;
@@ -102,8 +114,17 @@
     max-height: 100%;
     max-width: 100%;
   }
+  .type-884 .blog_title a {
+    display: inline-block;
+  }
+  .type-884 .blog_content {
+    display: block;
+  }
   .type-884 .video_wr {
     width: 100%;
     text-align: center;
+  }
+  .type-884 .article_img img {
+    width: 500px;
   }
 }
