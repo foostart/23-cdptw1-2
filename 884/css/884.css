@@ -46,7 +46,7 @@
 .type-884 .article_img {
   margin-right: 47px;
   max-width: 34.2%;
-  min-width: 215px;
+  min-width: 100px;
   overflow: hidden;
 }
 .type-884 .article_img img {
@@ -101,6 +101,7 @@
   .type-884 .article_img {
     margin-right: 20px;
     max-height: 100%;
+    max-width: 100%;
   }
   .type-884 .video_wr {
     width: 100%;
