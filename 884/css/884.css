@@ -46,7 +46,7 @@
 .type-884 .article_img {
   margin-right: 47px;
   max-width: 34.2%;
-  min-width: 100px;
+  min-width: 215px;
   overflow: hidden;
 }
 .type-884 .article_img img {
@@ -89,7 +89,7 @@
     min-width: 115px;
     max-height: 115px;
     float: left;
-    margin: 0 10px 10px 0;
+    margin: 0 0px 10px 0;
   }
   .type-884 .blog_title {
     font-size: 18px;
@@ -99,7 +99,6 @@
 }
 @media (max-width: 767px) {
   .type-884 .article_img {
-    margin-right: 20px;
     max-height: 100%;
     max-width: 100%;
   }

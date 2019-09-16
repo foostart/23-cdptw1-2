@@ -15,9 +15,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 <span class="page_heading">News and useful tips</span>
             </h2>
             <div class="col-sm-6">
-                <div class="blog_post">
-                    <div class="article_img"><img src="<?php echo $url_path ?>/images/blog4_1024x1024.jpg?v=1468860293" alt="Best Makeup Secrets &amp; Looks For A Date Night. Look romnantic."></div>
-                    <div class="blog_post__info">
+                <div class="blog_post row">
+                    <div class="article_img col-sm-12"><img src="<?php echo $url_path ?>/images/blog4_1024x1024.jpg?v=1468860293" alt="Best Makeup Secrets &amp; Looks For A Date Night. Look romnantic."></div>
+                    <div class="blog_post__info col-sm-12">
                         <h3 class="blog_title"><a href="#">Best Makeup Secrets &amp; Looks For A Date Night. Look romnantic.</a></h3>
                         <div class="blog_content">We’ve collected all our knowledge to deliver you only the best organic, biodynamic, natural, wild-harvested cosmetology brands in the world. The point is that science and nature are easily combined...</div>
                     </div>
