@@ -114,6 +114,12 @@
     max-height: 100%;
     max-width: 100%;
   }
+  .type-884 .blog_title a {
+    display: inline-block;
+  }
+  .type-884 .blog_content {
+    display: block;
+  }
   .type-884 .video_wr {
     width: 100%;
     text-align: center;
