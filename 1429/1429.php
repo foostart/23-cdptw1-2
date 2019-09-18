@@ -26,10 +26,10 @@
 
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="<?php echo $url_path ?>/css/1428.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/1429.css" rel="stylesheet" type="text/css" />
     </head>
 
     <body>
-       <?php include $dir_block.'/1428-content.php'; ?>
+       <?php include $dir_block.'/1429-content.php'; ?>
     </body>
 </html>

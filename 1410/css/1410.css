@@ -47,6 +47,17 @@
 .products-nav .view-mode-wrap .view-mode span {
   visibility: hidden;
 }
+.products-nav .quantity input {
+  width: 45px;
+  height: 42px;
+  line-height: 1.65;
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  border: 1px solid #eee;
+}
 .products-nav .category-ss {
   display: inline-block;
   padding: 0;
