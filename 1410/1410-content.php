@@ -22,14 +22,7 @@
             <div class = "category-ss">
                 <div class="show">
                     <span class="showproduct">Show:</span>
-                    <span class = "current-li">
-                        <a href="#">12</a>
-                    </span>
-                    <ul class = "ll">
-                        <li>1</li>
-                        <li>2</li>
-                        <li>3</li>
-                    </ul>
+                    <input type="number" class="ip_num">
                 </div>
                 <div class="default">
                     <span class="defaultroduct">Sort by:</span>
