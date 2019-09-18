@@ -6,6 +6,8 @@
   font-weight: bold;
   padding: 0 15px;
   margin: 15px -15px;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .type-1915 h3 {
   font-size: 15px;
@@ -17,6 +19,8 @@
   background: #fff;
   text-transform: uppercase;
   line-height: none !important;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .type-1915 .accordion::after {
   content: "\2212";
@@ -38,6 +42,10 @@
   height: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+.type-1915 .panel p {
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .type-1915 .swiper-slide {
   text-align: center;
