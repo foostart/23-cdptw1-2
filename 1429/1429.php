@@ -27,9 +27,23 @@
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/1429.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/plugin/swiper/package/css/swiper.min.css" rel="stylesheet" type="text/css" />
     </head>
 
     <body>
        <?php include $dir_block.'/1429-content.php'; ?>
     </body>
+    <script src="plugin/swiper/package/js/swiper.min.js"></script>
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        dymamicBullets: true
+      },
+    });
+  </script>
 </html>

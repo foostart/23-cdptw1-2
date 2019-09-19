@@ -1,7 +1,6 @@
 .banner{
-    background: url("../images/1.jpg") no-repeat center center;
     position: relative;
-    height: 747px;
+
     h3{
         font-family: Montserrat;
         font-size: 56.9109px;
@@ -15,6 +14,7 @@
     .set{
         text-align: center;
         float: right;
+        height:700px;
     }
     .button{
         padding-top: 37px;
@@ -38,6 +38,25 @@
             text-transform: uppercase;
             font-weight: 600;
             margin-left: 20px;
+        }
+    }
+    #slide-0 { 
+        background: url("../images/1.jpg") no-repeat center center ; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+    }
+    #slide-1 {
+         background: url("../images/5.jpg") no-repeat center center; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+    }
+    @media (max-width: 480px){
+        .button a{
+            font-size: 10px !important;
         }
     }
 }
