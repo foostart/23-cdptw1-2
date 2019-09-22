@@ -2,30 +2,62 @@
     outline: none !important;
 }
 .type-1406{
-  .container .wp_wrapper{
+  .mb-view{
+    display: none;
+  }
+  .pdtype{
     padding: 40px 0;
   }
-	.container .wrap-content{
-	  position: relative;
+  .viewblog{
+    position: relative;
+  }
+  .title{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+    color: black;
     text-align: center;
+    margin: 0;
+    padding-bottom: 40px;
   }
-  .widget-caption{
-    padding-right: 10px;
+  .viewblog::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    border-left: 1px solid black;
   }
-  .widget-thumb{
-    img{
-      width: 430px;
-      height: 280px;
-    }
+  .caption {
+    border-radius: 15px;
+    padding: 15px;
+    position: absolute;
+    clear: both;
+    float: left;
+    width: 35%;
+  }
+  .caption2 {
+    border-radius: 15px;
+    padding: 15px;
+    position: relative;
+    clear: both;
+    width: 35%;
+    float: right;
   }
   .entry-time{
     color: rgb(137, 137, 140);
     font-weight: bold;
   }
+  .caption img{
+    padding-bottom: 20px;
+  }
+  .caption2 img{
+    padding-top: 20px;
+  }
   .container .title-home{
     float: none;
     text-align: center;
-    font-size: 48px;
+    font-size: 5vw;
     position: relative;
     text-transform: uppercase;
     line-height: 45px;
@@ -36,28 +68,11 @@
     font-family: sans-serif;
     font-weight: bold;
   }
-  .caption1::before {
-    content: '';
-    border-left: 1.5px solid rgb(0, 0, 0);
-    position: absolute;
-    left: 15%;
-    top: -13%;
-    bottom: 0;
-    height: 10%;
-  }
-  .caption1::after {
-    content: '';
-    border-top: 1.5px solid rgb(0, 0, 0);
-    width: calc(85% + 4px);
-    position: absolute;
-    top: -13%;
-    left: 15%;
-  }
   .item-content-wrap{
-    padding: 25px 0;
+    padding: 20px 0;
   }
   .item-content-wrap a{
-    font-size: 29px;
+    font-size: 2vw;
     color: black;
     font-weight: bold;
     text-decoration: none;
@@ -66,19 +81,14 @@
   .item-content p{
     line-height: 2;
     font-size: 13px;
-    color:rgb(137, 137, 140);
+    color:rgb(130, 130, 156);
     margin: 0;
-    padding-bottom: 25px;
-  }
-  .container .wrap-content .widget-post .widget-caption{
-  	position: absolute;
-    top: 85px;
-    width: 340px;
-    text-align: left;
+    padding-bottom: 20px;
   }
   .comments{
     padding-left: 10px;
     font-weight: bold;
+    font-size: 1vw;
   }
   .view-all-blog{
     color: black;
@@ -86,56 +96,73 @@
     padding: 10px 20px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1vw;
   }
   .l_comments{
     float: right;
   }
-  .post2{
-    padding-top: 10px;
-  }
-  .caption1{
-    left: 0;
-  }
-  .caption2{
-    right: 0;
-    padding-left: 10px;
-  }
-  .caption2::before {
+  .caption::before {
     content: '';
-    border-left: 1.5px solid rgb(0, 0, 0);
+    width: 25%;
     position: absolute;
-    right: 15%;
-    bottom: -12.5%;
-    height: 10%;
-  }
-  .caption2::after {
-    content: '';
-    border-top: 1.5px solid rgb(0, 0, 0);
-    width: calc(85% + 4px);
-    position: absolute;
-    bottom: -13%;
-    right: 15%;
-  }
-  @media (max-width: 769px){
-    img{
-      max-width: 100%;
+    top: 25%;
+    border-top: 1px solid black;
+    right: -43%; 
+    
+}
+.caption2::before {
+  content: '';
+  width: 25%;
+  position: absolute;
+  bottom: 25%;
+  border-top: 1px solid black;
+  left: -43%; 
+  
+}
+.caption::after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(~"25% - 10px");
+  right: calc(~"-43% - 10px");
+  background: black;
+}
+.caption2::after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: calc(~"25% - 10px");
+  left: calc(~"-43% - 10px");
+  background: black;
+}
+  @media (max-width: 480px){
+    .pc-view{
+      display: none;
     }
-    .caption1::before {
-      border-left: 0 solid rgb(0, 0, 0);
+    .mb-view{
+      display: block;
     }
-    .caption1::after {
-      border-top: 0 solid rgb(0, 0, 0);
+    .title{
+      font-size: 3em;
+      padding-bottom: 10px;
     }
-    .caption2::before {
-      border-left: 0 solid rgb(0, 0, 0);
+    .captionmb img{
+      padding: 20px 0;
     }
-    .caption2::after {
-      border-top: 0 solid rgb(0, 0, 0);
+    .item-content-wrap a{
+      font-size: 1.5em;
     }
-    .container .wrap-content .widget-post .widget-caption{
-      position: unset;
-      padding: 15px 0;
+    .comments{
+      font-size: 13px;
     }
-  }
+    .view-all-blog{
+      font-size: 13px;
+    }
 
+  }
+    
 }

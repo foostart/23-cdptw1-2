@@ -12,80 +12,103 @@ if (!class_exists('lessc')) {
     require_once($dir_block . '/libs/lessc.inc.php');
 }
 ?>
-<body >
+
+<body>
     <div class="type-1406">
-        <div class="container">
-            <div class="wp_wrapper">
-                <div class="widget-the-blog the_blog ">
-                    <div class="title-home">
-                        <span>Latest Blog</span>
+        <div class="container pdtype">
+            <h2 class="title">LATEST BLOG</h2>
+            <div class="viewblog clearfix pc-view">
+                <div class="caption">
+                    <img src="images/images-2.png" class="img-responsive">
+                    <span class="entry-time">10 Jan, 2016</span>
+                    <div class="item-content-wrap">
+                        <a>
+                            Italian fashion designer Elio Fiorucci dies aged 80
+                        </a>
                     </div>
-                    <div class="wrap-content">
-                        <div class="widget-post">
-                            <div class="widget-post-inner">
-                                <div class="widget-thumb">
-                                    <a href="#">
-                                        <img src="images/images-2.png"  alt="images-2"  sizes="(max-width: 430px) 100vw, 430px">
-                                    </a>
-                                </div>
-                                <div class="widget-caption caption1">
-                                    <span class="entry-time">10 Jan, 2016</span>
-                                    <div class="item-content-wrap">
-                                        <a>
-                                            Italian fashion designer Elio Fiorucci dies aged 80
-                                        </a>
-                                    </div>
-                                    <div class="item-content">
-                                        <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi </p>
-                                    </div>
-                                    <div class="entry-meta">
-                                        <div class="entry-comment">
-                                            <i class="fas fa-comments"></i>
-                                            <span class="comments">2 COMMENTS</span>
-                                            <span class="l_comments">
-                                                <a class="view-all-blog" href="#" title="View All"> VIEW ALL </a>
-                                            </span>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="item-content">
+                        <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi </p>
+                    </div>
+                    <div class="entry-meta">
+                        <div class="entry-comment">
+                            <i class="fas fa-comments"></i>
+                            <span class="comments">2 COMMENTS</span>
+                            <span class="l_comments">
+                                <a class="view-all-blog" href="#" title="View All"> VIEW ALL </a>
+                            </span>
                         </div>
-                        <div class="widget-post post2">
-                            <div class="widget-post-inner">
-                                <div class="widget-thumb">
-                                    <a href="#">
-                                        <img src="images/images-1.png"  alt="images-2"  sizes="(max-width: 430px) 100vw, 430px">
-                                    </a>
-                                </div>
-                                <div class="widget-caption caption2">
-                                    <span class="entry-time">10 Jan, 2016</span>
-                                    <div class="item-content-wrap">
-                                        <a>
-                                            Italian fashion designer Elio Fiorucci dies aged 80
-                                        </a>
-                                    </div>
-                                    <div class="item-content">
-                                        <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi </p>
-                                    </div>
-                                    <div class="entry-meta">
-                                        <div class="entry-comment">
-                                            <i class="fas fa-comments"></i>
-                                            <span class="comments">2 COMMENTS</span>
-                                            <span class="l_comments">
-                                                <a class="view-all-blog" href="#" title="View All"> VIEW ALL </a>
-                                            </span>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                            </div>
+                    </div>
+                </div>
+                <div class="caption2">
+                    <span class="entry-time">10 Jan, 2016</span>
+                    <div class="item-content-wrap">
+                        <a>
+                            Italian fashion designer Elio Fiorucci dies aged 80
+                        </a>
+                    </div>
+                    <div class="item-content">
+                        <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi </p>
+                    </div>
+                    <div class="entry-meta">
+                        <div class="entry-comment">
+                            <i class="fas fa-comments"></i>
+                            <span class="comments">2 COMMENTS</span>
+                            <span class="l_comments">
+                                <a class="view-all-blog" href="#" title="View All"> VIEW ALL </a>
+                            </span>
+                        </div>
+                    </div>
+                    <img src="images/images-1.png" class="img-responsive">
+                </div>
+            </div>
+            <div class=" container view clearfix mb-view">
+                <div class="captionmb">
+                    <img src="images/images-2.png" class="img-responsive">
+                    <span class="entry-time">10 Jan, 2016</span>
+                    <div class="item-content-wrap">
+                        <a>
+                            Italian fashion designer Elio Fiorucci dies aged 80
+                        </a>
+                    </div>
+                    <div class="item-content">
+                        <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi </p>
+                    </div>
+                    <div class="entry-meta">
+                        <div class="entry-comment">
+                            <i class="fas fa-comments"></i>
+                            <span class="comments">2 COMMENTS</span>
+                            <span class="l_comments">
+                                <a class="view-all-blog" href="#" title="View All"> VIEW ALL </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="captionmb">
+                    <img src="images/images-1.png" class="img-responsive">
+                    <span class="entry-time">10 Jan, 2016</span>
+                    <div class="item-content-wrap">
+                        <a>
+                            Italian fashion designer Elio Fiorucci dies aged 80
+                        </a>
+                    </div>
+                    <div class="item-content">
+                        <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi </p>
+                    </div>
+                    <div class="entry-meta">
+                        <div class="entry-comment">
+                            <i class="fas fa-comments"></i>
+                            <span class="comments">2 COMMENTS</span>
+                            <span class="l_comments">
+                                <a class="view-all-blog" href="#" title="View All"> VIEW ALL </a>
+                            </span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-       
     </div>
-    
 </body>
