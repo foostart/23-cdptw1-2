@@ -7,95 +7,134 @@
     $url_path = $url_host . $matches[1][0];
     $url_path = str_replace('\\', '/', $url_path);
 ?>
-<div>
-    <div class="products-nav">
-        <div class="container">
-            <p class="woocommerce-result-count">
-            Showing all 4 results</p>
-            <div class="view-mode-wrap">
-                <span class="text-view">View as:</span>
-                <p class="view-mode">
-                    <a href="javascript:void(0)" class="grid-view" title="Grid view"><span>Grid view</span></a>
-                    <a href="javascript:void(0)" class="list-view" title="List view"><span>List view</span></a>
-                </p>	
-            </div>
-        </div>  
-    </div>
-    <div  class="container bg">
-        <div class="body">
-            <div class="mb-view col-md-4 col-lg-4 col-4">
-                <div class="categories">
-                    <span>CATEGORIES</span>
-                    <hr>
-                    <ul>
-                        <li class = "cat-item">Bags</li>
-                        <li class = "cat-item">Dresses</li>
-                        <li class = "cat-item">Hoodies&Sweatshirts</li>
-                        <li class = "cat-item">Jackets&Coats</li>
-                        <li class = "cat-item">Jeans</li>
-                        <li class = "cat-item">Shirts</li>
-                        <li class = "cat-item">More</li>
+<div class="type-1410">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3 col-lg-4 col-md-5">
+                <div class="sidebar-categories">
+                    <div class="head">CATEGORIES</div>
+                    <ul class="main-categories">
+                        <li class="main-nav-list"><a data-toggle="collapse" href="#fruitsVegetable"
+                                aria-expanded="false" aria-controls="fruitsVegetable"><span
+                                    class="lnr lnr-arrow-right"></span>Bags</a>
+                        </li>
+
+                        <li class="main-nav-list"><a data-toggle="collapse" href="#meatFish" aria-expanded="false"
+                                aria-controls="meatFish"><span class="lnr lnr-arrow-right"></span>Dresses</a>
+                        </li>
+                        <li class="main-nav-list"><a data-toggle="collapse" href="#cooking" aria-expanded="false"
+                                aria-controls="cooking"><span class="lnr lnr-arrow-right"></span>Hoodies&Sweatshirts</a>
+                        </li>
+                        <li class="main-nav-list"><a data-toggle="collapse" href="#beverages" aria-expanded="false"
+                                aria-controls="beverages"><span class="lnr lnr-arrow-right"></span>Jackets&Coats</a>
+                        </li>
+                        <li class="main-nav-list"><a data-toggle="collapse" href="#homeClean" aria-expanded="false"
+                                aria-controls="homeClean"><span class="lnr lnr-arrow-right"></span>Jeans</a>
+                        </li>
+                        <li class="main-nav-list"><a href="#">Shirts</a></li>
+                        <li class="main-nav-list"><a data-toggle="collapse" href="#beauttyProduct" aria-expanded="false"
+                                aria-controls="beauttyProduct"><span class="lnr lnr-arrow-right"></span>More</a>
+                        </li>
                     </ul>
                 </div>
-                <div class="shopby">
-                    <span><h3>Shop By</h3></span>
-                    <hr>
-                    <div type=" margin-bottom: 20px;">
-                        <div class ="slider"></div>
-                        <span class="head"></span>
-                        <span class="tail"></span>
+                <div class="sidebar-filter mt-50">
+                    <div class="common-filter">
+                        <div class="head">PRICE</div>
+                        <div class="price-range-area">
+                            <div id="price-range"></div>
+                            <div class="value-wrapper d-flex">
+                                <div class="price">Price:
+                                    <span id="lower-value"></span> VND
+                                    <span>to</span>
+                                    <span id="upper-value"></span> VND
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" value="submit" class="primary-btn">FILTER</button>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
-                    <form action="#">
-                        <input type="number">
-                        <input type="number">
-                        <button>filter</button>
-                    </form>
                 </div>
             </div>
-            <div class="col-md-8 col-12 col-lg-8 left-side">
-                    <div class="col-md-4 product">
-                        <img class="img-responsive" src="./images/23-400x424.jpg" alt="">
-                        <div class="info">
-                            <p>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</p>
-                            <span><a href="#" class="price">$76.000</a></span>
-                            <a href="#"  class="tim"></a>
-                            <a href="#" class="tui"></a>
+            <div class="col-xl-9 col-lg-8 col-md-7">
+                <section class="lattest-product-area pb-40 category-list">
+                    <div class="row">
+                        <!-- single product -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-product">
+                                <img class="img-fluid" src="./images/23-400x424.jpg" alt="">
+                                <div class="product-details">
+                                    <h6>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</h6>
+                                    <span><a href="#" class="price">$76.000</a></span>
+                                    <a href="#" class="tim"></a>
+                                    <a href="#" class="tui"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single product -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-product">
+                                <img class="img-fluid" src="./images/23-400x424.jpg" alt="">
+                                <div class="product-details">
+                                    <h6>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</h6>
+                                    <span><a href="#" class="price">$76.000</a></span>
+                                    <a href="#" class="tim"></a>
+                                    <a href="#" class="tui"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single product -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-product">
+                                <img class="img-fluid" src="./images/23-400x424.jpg" alt="">
+                                <div class="product-details">
+                                    <h6>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</h6>
+                                    <span><a href="#" class="price">$76.000</a></span>
+                                    <a href="#" class="tim"></a>
+                                    <a href="#" class="tui"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single product -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-product">
+                                <img class="img-fluid" src="./images/23-400x424.jpg" alt="">
+                                <div class="product-details">
+                                    <h6>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</h6>
+                                    <span><a href="#" class="price">$76.000</a></span>
+                                    <a href="#" class="tim"></a>
+                                    <a href="#" class="tui"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single product -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-product">
+                                <img class="img-fluid" src="./images/23-400x424.jpg" alt="">
+                                <div class="product-details">
+                                    <h6>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</h6>
+                                    <span><a href="#" class="price">$76.000</a></span>
+                                    <a href="#" class="tim"></a>
+                                    <a href="#" class="tui"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single product -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-product">
+                                <img class="img-fluid" src="./images/23-400x424.jpg" alt="">
+                                <div class="product-details">
+                                    <h6>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</h6>
+                                    <span><a href="#" class="price">$76.000</a></span>
+                                    <a href="#" class="tim"></a>
+                                    <a href="#" class="tui"></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4 product">
-                        <img class="img-responsive" src="./images/17-400x424.jpg" alt="">
-                        <div class="info">
-                            <p>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</p>
-                            <span><a href="#" class="price">$70.000</a></span>
-                            <a href="#"  class="tim"></a>
-                            <a href="#" class="tui"></a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 product">
-                        <img class="img-responsive" src="./images/6-400x424.jpg" alt="">
-                        <div class="info">
-                            <p>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</p>
-                            <span><a href="#" class="price">$65.000</a></span>
-                            <a href="#"  class="tim"></a>
-                            <a href="#" class="tui"></a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 product">
-                        <img class="img-responsive" src="./images/7-400x424.jpg" alt="">
-                        <div class="info">
-                            <p>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</p>
-                            <span><a href="#" class="price">$76.000</a></span>
-                            <a href="#"  class="tim"></a>
-                            <a href="#" class="tui"></a>
-                        </div>
-                    </div>
+                </section>
             </div>
-        </div> 
+        </div>
     </div>
 </div>
-
-  
-    
-    
-
-    

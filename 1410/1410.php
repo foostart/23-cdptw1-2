@@ -27,9 +27,14 @@
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/1410.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/nouislider.min.css" rel="stylesheet" type="text/css" />
     </head>
 
     <body>
        <?php include $dir_block.'/1410-content.php'; ?>
+       <script src="<?php echo $url_path ?>/js/jquery-2.2.4.min.js"></script>
+       <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+       <script src="<?php echo $url_path ?>/js/nouislider.min.js"></script>
+       <script src="<?php echo $url_path ?>/js/main.js"></script>
     </body>
 </html>
