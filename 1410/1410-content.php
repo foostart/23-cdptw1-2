@@ -63,7 +63,7 @@
                         <!-- single product -->
                         <div class="col-lg-4 col-md-6">
                             <div class="single-product">
-                                <img class="img-fluid" src="./images/23-400x424.jpg" alt="">
+                                <img class="img-fluid" src="./images/1.jpg" alt="">
                                 <div class="product-details">
                                     <h6>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</h6>
                                     <span><a href="#" class="price">$76.000</a></span>
@@ -75,7 +75,7 @@
                         <!-- single product -->
                         <div class="col-lg-4 col-md-6">
                             <div class="single-product">
-                                <img class="img-fluid" src="./images/23-400x424.jpg" alt="">
+                                <img class="img-fluid" src="./images/2.jpg" alt="">
                                 <div class="product-details">
                                     <h6>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</h6>
                                     <span><a href="#" class="price">$76.000</a></span>
@@ -87,7 +87,7 @@
                         <!-- single product -->
                         <div class="col-lg-4 col-md-6">
                             <div class="single-product">
-                                <img class="img-fluid" src="./images/23-400x424.jpg" alt="">
+                                <img class="img-fluid" src="./images/3.jpg" alt="">
                                 <div class="product-details">
                                     <h6>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</h6>
                                     <span><a href="#" class="price">$76.000</a></span>
@@ -99,7 +99,7 @@
                         <!-- single product -->
                         <div class="col-lg-4 col-md-6">
                             <div class="single-product">
-                                <img class="img-fluid" src="./images/23-400x424.jpg" alt="">
+                                <img class="img-fluid" src="./images/4.jpg" alt="">
                                 <div class="product-details">
                                     <h6>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</h6>
                                     <span><a href="#" class="price">$76.000</a></span>
@@ -111,7 +111,7 @@
                         <!-- single product -->
                         <div class="col-lg-4 col-md-6">
                             <div class="single-product">
-                                <img class="img-fluid" src="./images/23-400x424.jpg" alt="">
+                                <img class="img-fluid" src="./images/2.jpg" alt="">
                                 <div class="product-details">
                                     <h6>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</h6>
                                     <span><a href="#" class="price">$76.000</a></span>
@@ -123,7 +123,7 @@
                         <!-- single product -->
                         <div class="col-lg-4 col-md-6">
                             <div class="single-product">
-                                <img class="img-fluid" src="./images/23-400x424.jpg" alt="">
+                                <img class="img-fluid" src="./images/3.jpg" alt="">
                                 <div class="product-details">
                                     <h6>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</h6>
                                     <span><a href="#" class="price">$76.000</a></span>
