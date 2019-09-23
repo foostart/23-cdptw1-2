@@ -23,7 +23,7 @@ $less->compileFile('less/884.less', 'css/884.css');
 <html lang="vi">
 
 <head>
-    <title>Demo</title>
+    <title>module 884</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 

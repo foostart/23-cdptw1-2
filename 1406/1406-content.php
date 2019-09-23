@@ -22,7 +22,7 @@ if (!class_exists('lessc')) {
                     <img src="images/images-2.png" class="img-responsive">
                     <span class="entry-time">10 Jan, 2016</span>
                     <div class="item-content-wrap">
-                        <a>
+                        <a href="#">
                             Italian fashion designer Elio Fiorucci dies aged 80
                         </a>
                     </div>
@@ -43,7 +43,7 @@ if (!class_exists('lessc')) {
                 <div class="caption2">
                     <span class="entry-time">10 Jan, 2016</span>
                     <div class="item-content-wrap">
-                        <a>
+                        <a href="#">
                             Italian fashion designer Elio Fiorucci dies aged 80
                         </a>
                     </div>

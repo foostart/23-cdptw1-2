@@ -16,14 +16,14 @@ $url_path = str_replace('\\', '/', $url_path);
             </h2>
             <div class="col-sm-6">
                 <div class="blog_post">
-                    <div class="article_img"><img src="<?php echo $url_path ?>/images/blog4_1024x1024.jpg?v=1468860293" alt="Best Makeup Secrets &amp; Looks For A Date Night. Look romnantic."></div>
+                    <div class="article_img"><img class="img-responsive" src="<?php echo $url_path ?>/images/blog4_1024x1024.jpg?v=1468860293" alt="Best Makeup Secrets &amp; Looks For A Date Night. Look romnantic."></div>
                     <div class="blog_post__info">
                         <h3 class="blog_title"><a href="#">Best Makeup Secrets &amp; Looks For A Date Night. Look romnantic.</a></h3>
                         <div class="blog_content">We’ve collected all our knowledge to deliver you only the best organic, biodynamic, natural, wild-harvested cosmetology brands in the world. The point is that science and nature are easily combined...</div>
                     </div>
                 </div>
                 <div class="blog_post">
-                    <div class="article_img"><img src="<?php echo $url_path ?>/images/blog1_00643b2b-1226-4ebf-9508-967dd3f30ebd_1024x1024.jpg?v=1468861247" alt="Our goal is to help you stay healthy as well as gorgeous at the same time"></div>
+                    <div class="article_img"><img  class="img-responsive" src="<?php echo $url_path ?>/images/blog1_00643b2b-1226-4ebf-9508-967dd3f30ebd_1024x1024.jpg?v=1468861247" alt="Our goal is to help you stay healthy as well as gorgeous at the same time"></div>
                     <div class="blog_post__info">
                         <h3 class="blog_title"><a href="#">Our goal is to help you stay healthy as well as gorgeous at the same time</a></h3>
                         <div class="blog_content">Soon you’ll discover how it is possible to use organic cosmetics for your body. We’ve collected all our knowledge to deliver you only the best organic, biodynamic, natural, wild-harvested cosmetology...</div>

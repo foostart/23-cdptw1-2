@@ -19,28 +19,11 @@
                     <a href="javascript:void(0)" class="list-view" title="List view"><span>List view</span></a>
                 </p>	
             </div>
-            <div class = "category-ss">
-                <div class="show">
-                    <span class="showproduct">Show:</span>
-                    <input type="number" class="ip_num">
-                </div>
-                <div class="default">
-                    <span class="defaultroduct">Sort by:</span>
-                    <span class = "current-li">
-                        <a href="#">Default</a>
-                    </span>
-                    <ul class = "ll">
-                        <li>1</li>
-                        <li>2</li>
-                        <li>3</li>
-                    </ul>
-                </div>
-            </div>
         </div>  
     </div>
-    <div  class="container">
+    <div  class="container bg">
         <div class="body">
-            <div class="col-md-4">
+            <div class="mb-view col-md-4 col-lg-4 col-4">
                 <div class="categories">
                     <span>CATEGORIES</span>
                     <hr>
@@ -63,15 +46,15 @@
                         <span class="tail"></span>
                     </div>
                     <form action="#">
-                        <input type="text">
-                        <input type="text">
+                        <input type="number">
+                        <input type="number">
                         <button>filter</button>
                     </form>
                 </div>
             </div>
-            <div class="col-md-8 left-side">
+            <div class="col-md-8 col-12 col-lg-8 left-side">
                     <div class="col-md-4 product">
-                        <img src="./images/23-400x424.jpg" alt="">
+                        <img class="img-responsive" src="./images/23-400x424.jpg" alt="">
                         <div class="info">
                             <p>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</p>
                             <span><a href="#" class="price">$76.000</a></span>
@@ -80,7 +63,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 product">
-                        <img src="./images/17-400x424.jpg" alt="">
+                        <img class="img-responsive" src="./images/17-400x424.jpg" alt="">
                         <div class="info">
                             <p>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</p>
                             <span><a href="#" class="price">$70.000</a></span>
@@ -89,7 +72,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 product">
-                        <img src="./images/6-400x424.jpg" alt="">
+                        <img class="img-responsive" src="./images/6-400x424.jpg" alt="">
                         <div class="info">
                             <p>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</p>
                             <span><a href="#" class="price">$65.000</a></span>
@@ -98,7 +81,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 product">
-                        <img src="./images/7-400x424.jpg" alt="">
+                        <img class="img-responsive" src="./images/7-400x424.jpg" alt="">
                         <div class="info">
                             <p>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</p>
                             <span><a href="#" class="price">$76.000</a></span>

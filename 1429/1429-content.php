@@ -16,8 +16,8 @@ $url_path = str_replace('\\', '/', $url_path);
                         <h2>We're here to offer the best support, to help you troubleshot any bussiness issues</h2>
                     </div>
                     <div class = "button">
-                        <a>Contract Us</a>
-                        <a>Our Services</a>
+                        <a href="#">Contract Us</a>
+                        <a href="#">Our Services</a>
                     </div>
                 </div>
             </div>
@@ -28,8 +28,8 @@ $url_path = str_replace('\\', '/', $url_path);
                         <h2>We're here to offer the best support, to help you troubleshot any bussiness issues</h2>
                     </div>
                     <div class = "button">
-                        <a>Contract Us</a>
-                        <a>Our Services</a>
+                        <a href="#">Contract Us</a>
+                        <a href="#">Our Services</a>
                     </div>
                 </div>
             </div>
