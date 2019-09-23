@@ -94,6 +94,18 @@
   line-height: none !important;
   text-overflow: ellipsis;
 }
+.type-1406 .item-content-wrap a:hover {
+  color: #fd907a;
+}
+.type-1406 .comments a {
+  text-decoration: none;
+}
+.type-1406 .comments a:hover {
+  color: #fd907a;
+}
+.type-1406 .l_comments a:hover {
+  color: #fd907a;
+}
 .type-1406 .item-content p {
   line-height: 2;
   font-size: 13px;

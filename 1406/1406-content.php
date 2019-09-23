@@ -33,7 +33,7 @@ if (!class_exists('lessc')) {
                     <div class="entry-meta">
                         <div class="entry-comment">
                             <i class="fas fa-comments"></i>
-                            <span class="comments">2 COMMENTS</span>
+                            <span class="comments"><a href="#">2 COMMENTS</a></span>
                             <span class="l_comments">
                                 <a class="view-all-blog" href="#" title="View All"> VIEW ALL </a>
                             </span>
@@ -54,7 +54,7 @@ if (!class_exists('lessc')) {
                     <div class="entry-meta">
                         <div class="entry-comment">
                             <i class="fas fa-comments"></i>
-                            <span class="comments">2 COMMENTS</span>
+                            <span class="comments"><a href="#">2 COMMENTS</a></span>
                             <span class="l_comments">
                                 <a class="view-all-blog" href="#" title="View All"> VIEW ALL </a>
                             </span>
