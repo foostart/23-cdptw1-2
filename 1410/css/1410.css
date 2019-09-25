@@ -207,3 +207,6 @@
 .type-1410 .primary-btn:hover {
   background: #828bb3;
 }
+.type-1410 .noUi-handle:focus {
+  outline: none;
+}
