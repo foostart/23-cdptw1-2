@@ -14,26 +14,20 @@
                 <div class="sidebar-categories">
                     <div class="head">CATEGORIES</div>
                     <ul class="main-categories">
-                        <li class="main-nav-list"><a data-toggle="collapse" href="#fruitsVegetable"
-                                aria-expanded="false" aria-controls="fruitsVegetable"><span
+                        <li class="main-nav-list"><a data-toggle="collapse" href="#"><span
                                     class="lnr lnr-arrow-right"></span>Bags</a>
                         </li>
 
-                        <li class="main-nav-list"><a data-toggle="collapse" href="#meatFish" aria-expanded="false"
-                                aria-controls="meatFish"><span class="lnr lnr-arrow-right"></span>Dresses</a>
+                        <li class="main-nav-list"><a data-toggle="collapse" href="#"><span class="lnr lnr-arrow-right"></span>Dresses</a>
                         </li>
-                        <li class="main-nav-list"><a data-toggle="collapse" href="#cooking" aria-expanded="false"
-                                aria-controls="cooking"><span class="lnr lnr-arrow-right"></span>Hoodies&Sweatshirts</a>
+                        <li class="main-nav-list"><a data-toggle="collapse" href="#" ><span class="lnr lnr-arrow-right"></span>Hoodies&Sweatshirts</a>
                         </li>
-                        <li class="main-nav-list"><a data-toggle="collapse" href="#beverages" aria-expanded="false"
-                                aria-controls="beverages"><span class="lnr lnr-arrow-right"></span>Jackets&Coats</a>
+                        <li class="main-nav-list"><a data-toggle="collapse" href="#" ><span class="lnr lnr-arrow-right"></span>Jackets&Coats</a>
                         </li>
-                        <li class="main-nav-list"><a data-toggle="collapse" href="#homeClean" aria-expanded="false"
-                                aria-controls="homeClean"><span class="lnr lnr-arrow-right"></span>Jeans</a>
+                        <li class="main-nav-list"><a data-toggle="collapse" href="#" ><span class="lnr lnr-arrow-right"></span>Jeans</a>
                         </li>
                         <li class="main-nav-list"><a href="#">Shirts</a></li>
-                        <li class="main-nav-list"><a data-toggle="collapse" href="#beauttyProduct" aria-expanded="false"
-                                aria-controls="beauttyProduct"><span class="lnr lnr-arrow-right"></span>More</a>
+                        <li class="main-nav-list"><a data-toggle="collapse" href="#" ><span class="lnr lnr-arrow-right"></span>More</a>
                         </li>
                     </ul>
                 </div>
@@ -65,7 +59,7 @@
                             <div class="single-product">
                                 <img class="img-fluid" src="./images/1.jpg" alt="">
                                 <div class="product-details">
-                                    <h6>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</h6>
+                                    <a href="#"><h6>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</h6></a>
                                     <span><a href="#" class="price">$76.000</a></span>
                                     <a href="#" class="tim"></a>
                                     <a href="#" class="tui"></a>
@@ -77,7 +71,7 @@
                             <div class="single-product">
                                 <img class="img-fluid" src="./images/2.jpg" alt="">
                                 <div class="product-details">
-                                    <h6>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</h6>
+                                    <a href="#"><h6>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</h6></a>
                                     <span><a href="#" class="price">$76.000</a></span>
                                     <a href="#" class="tim"></a>
                                     <a href="#" class="tui"></a>
@@ -89,7 +83,7 @@
                             <div class="single-product">
                                 <img class="img-fluid" src="./images/3.jpg" alt="">
                                 <div class="product-details">
-                                    <h6>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</h6>
+                                    <a href="#"><h6>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</h6></a>
                                     <span><a href="#" class="price">$76.000</a></span>
                                     <a href="#" class="tim"></a>
                                     <a href="#" class="tui"></a>
@@ -101,7 +95,7 @@
                             <div class="single-product">
                                 <img class="img-fluid" src="./images/4.jpg" alt="">
                                 <div class="product-details">
-                                    <h6>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</h6>
+                                    <a href="#"><h6>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</h6></a>
                                     <span><a href="#" class="price">$76.000</a></span>
                                     <a href="#" class="tim"></a>
                                     <a href="#" class="tui"></a>
@@ -109,29 +103,7 @@
                             </div>
                         </div>
                         <!-- single product -->
-                        <div class="col-lg-4 col-md-6">
-                            <div class="single-product">
-                                <img class="img-fluid" src="./images/2.jpg" alt="">
-                                <div class="product-details">
-                                    <h6>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</h6>
-                                    <span><a href="#" class="price">$76.000</a></span>
-                                    <a href="#" class="tim"></a>
-                                    <a href="#" class="tui"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- single product -->
-                        <div class="col-lg-4 col-md-6">
-                            <div class="single-product">
-                                <img class="img-fluid" src="./images/3.jpg" alt="">
-                                <div class="product-details">
-                                    <h6>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</h6>
-                                    <span><a href="#" class="price">$76.000</a></span>
-                                    <a href="#" class="tim"></a>
-                                    <a href="#" class="tui"></a>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </section>
             </div>

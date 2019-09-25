@@ -9,6 +9,9 @@
 .type-1410 ul {
   list-style: none;
 }
+.type-1410 .main-nav-list a:hover {
+  color: #ffba00;
+}
 .type-1410 a {
   text-decoration: none;
   transition: all 0.3s ease-in-out;
@@ -142,6 +145,9 @@
   margin-bottom: 20px;
   width: 100%;
 }
+.type-1410 .product-details {
+  height: 120px;
+}
 .type-1410 .single-product .product-details .price h6 {
   display: inline-block;
   padding-right: 15px;
@@ -152,6 +158,11 @@
   text-transform: uppercase;
   font-weight: bold;
   color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
 }
 .type-1410 a.price {
   margin: 12px 0 0 5px;
@@ -183,7 +194,7 @@
   background: #828bb3;
 }
 .type-1410 .product-details h6:hover {
-  color: #ffff00;
+  color: #ffba00;
 }
 .type-1410 .primary-btn {
   background: #ffba00;
@@ -192,4 +203,7 @@
   border: none;
   border-radius: 0;
   padding: 10px 15px;
+}
+.type-1410 .primary-btn:hover {
+  background: #828bb3;
 }
