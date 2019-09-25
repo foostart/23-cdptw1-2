@@ -44,9 +44,9 @@
                             <div id="price-range"></div>
                             <div class="value-wrapper d-flex">
                                 <div class="price">Price:
-                                    <span id="lower-value"></span> VND
+                                    <span id="lower-value"></span>VND
                                     <span>to</span>
-                                    <span id="upper-value"></span> VND
+                                    <span id="upper-value"></span>VND
                                 </div>
                                 <div class="text-center">
                                     <button type="submit" value="submit" class="primary-btn">FILTER</button>
