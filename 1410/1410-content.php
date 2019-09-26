@@ -18,16 +18,21 @@
                                     class="lnr lnr-arrow-right"></span>Bags</a>
                         </li>
 
-                        <li class="main-nav-list"><a data-toggle="collapse" href="#"><span class="lnr lnr-arrow-right"></span>Dresses</a>
+                        <li class="main-nav-list"><a data-toggle="collapse" href="#"><span
+                                    class="lnr lnr-arrow-right"></span>Dresses</a>
                         </li>
-                        <li class="main-nav-list"><a data-toggle="collapse" href="#" ><span class="lnr lnr-arrow-right"></span>Hoodies&Sweatshirts</a>
+                        <li class="main-nav-list"><a data-toggle="collapse" href="#"><span
+                                    class="lnr lnr-arrow-right"></span>Hoodies&Sweatshirts</a>
                         </li>
-                        <li class="main-nav-list"><a data-toggle="collapse" href="#" ><span class="lnr lnr-arrow-right"></span>Jackets&Coats</a>
+                        <li class="main-nav-list"><a data-toggle="collapse" href="#"><span
+                                    class="lnr lnr-arrow-right"></span>Jackets&Coats</a>
                         </li>
-                        <li class="main-nav-list"><a data-toggle="collapse" href="#" ><span class="lnr lnr-arrow-right"></span>Jeans</a>
+                        <li class="main-nav-list"><a data-toggle="collapse" href="#"><span
+                                    class="lnr lnr-arrow-right"></span>Jeans</a>
                         </li>
                         <li class="main-nav-list"><a href="#">Shirts</a></li>
-                        <li class="main-nav-list"><a data-toggle="collapse" href="#" ><span class="lnr lnr-arrow-right"></span>More</a>
+                        <li class="main-nav-list"><a data-toggle="collapse" href="#"><span
+                                    class="lnr lnr-arrow-right"></span>More</a>
                         </li>
                     </ul>
                 </div>
@@ -59,7 +64,9 @@
                             <div class="single-product">
                                 <img class="img-fluid" src="./images/1.jpg" alt="">
                                 <div class="product-details">
-                                    <a href="#"><h6>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</h6></a>
+                                    <a href="#">
+                                        <h6>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</h6>
+                                    </a>
                                     <span><a href="#" class="price">$76.000</a></span>
                                     <a href="#" class="tim"></a>
                                     <a href="#" class="tui"></a>
@@ -71,7 +78,9 @@
                             <div class="single-product">
                                 <img class="img-fluid" src="./images/2.jpg" alt="">
                                 <div class="product-details">
-                                    <a href="#"><h6>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</h6></a>
+                                    <a href="#">
+                                        <h6>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</h6>
+                                    </a>
                                     <span><a href="#" class="price">$76.000</a></span>
                                     <a href="#" class="tim"></a>
                                     <a href="#" class="tui"></a>
@@ -83,7 +92,9 @@
                             <div class="single-product">
                                 <img class="img-fluid" src="./images/3.jpg" alt="">
                                 <div class="product-details">
-                                    <a href="#"><h6>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</h6></a>
+                                    <a href="#">
+                                        <h6>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</h6>
+                                    </a>
                                     <span><a href="#" class="price">$76.000</a></span>
                                     <a href="#" class="tim"></a>
                                     <a href="#" class="tui"></a>
@@ -95,7 +106,9 @@
                             <div class="single-product">
                                 <img class="img-fluid" src="./images/4.jpg" alt="">
                                 <div class="product-details">
-                                    <a href="#"><h6>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</h6></a>
+                                    <a href="#">
+                                        <h6>MESH EMBROIDEDRED FRINGED BEACH KIMONIO</h6>
+                                    </a>
                                     <span><a href="#" class="price">$76.000</a></span>
                                     <a href="#" class="tim"></a>
                                     <a href="#" class="tui"></a>
@@ -103,7 +116,7 @@
                             </div>
                         </div>
                         <!-- single product -->
-                        
+
                     </div>
                 </section>
             </div>

@@ -1,16 +1,17 @@
 .type-1410 {
+  background: #272939;
   line-height: 24px;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  padding: 20px 0;
+  padding: 30px 0;
   color: #777777;
 }
 .type-1410 ul {
   list-style: none;
 }
 .type-1410 .main-nav-list a:hover {
-  color: #ffba00;
+  color: #fff568;
 }
 .type-1410 a {
   text-decoration: none;
@@ -18,11 +19,11 @@
 }
 .type-1410 .sidebar-categories .head {
   line-height: 60px;
-  background: #828bb3;
+  background: #fff568;
   padding: 0 30px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
-  color: #fff;
+  color: #272939;
 }
 .type-1410 .sidebar-categories .main-categories {
   padding: 0 20px;
@@ -30,7 +31,7 @@
   box-shadow: 0 10px 10px rgba(153,153,153,0.1);
 }
 .type-1410 .sidebar-filter {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .type-1410 .sidebar-categories .main-categories {
   padding: 0 20px;
@@ -51,20 +52,18 @@
   margin-right: 10px;
   display: none;
 }
-.type-1410 .sidebar-filter {
-  margin-top: 50px;
-}
 .type-1410 .sidebar-filter .common-filter {
   border-bottom: 1px solid #eee;
   padding-bottom: 25px;
+  background: #fff;
 }
 .type-1410 .sidebar-filter .head {
   line-height: 60px;
-  background: #828bb3;
+  background: #fff568;
   padding: 0 30px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
-  color: #fff;
+  color: #272939;
 }
 .type-1410 .price-range-area {
   padding: 30px 30px 0 30px;
@@ -99,7 +98,7 @@
   top: -5px;
   border-radius: 50%;
   border: 0px;
-  background: #ffba00;
+  background: #fff568;
   box-shadow: none;
   cursor: pointer;
   -webkit-transition: ease 0.1s;
@@ -108,7 +107,7 @@
   transition: ease 0.1s;
 }
 .type-1410 .price-range-area .noUi-horizontal .noUi-handle:hover {
-  border: 3px solid #ffba00;
+  border: 3px solid #fff568;
   background: #fff;
 }
 .type-1410 .price-range-area .value-wrapper {
@@ -117,7 +116,7 @@
 }
 .type-1410 .price-range-area .price {
   margin-right: 5px;
-  color: #777777;
+  color: #272939;
 }
 .type-1410 .price-range-area .value-wrapper .to {
   margin: 0 5px;
@@ -135,18 +134,14 @@
   border: 1px solid #eee;
   padding-right: 50px;
 }
-.type-1410 .category-list .single-product {
-  margin-top: 30px;
-}
 .type-1410 .single-product {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .type-1410 .single-product .img-fluid {
-  margin-bottom: 20px;
   width: 100%;
 }
 .type-1410 .product-details {
-  height: 120px;
+  height: 140px;
 }
 .type-1410 .single-product .product-details .price h6 {
   display: inline-block;
@@ -156,8 +151,7 @@
 .type-1410 .single-product .product-details h6 {
   font-size: 16px;
   text-transform: uppercase;
-  font-weight: bold;
-  color: white;
+  color: #272939;
   overflow: hidden;
   text-overflow: ellipsis;
   -webkit-line-clamp: 2;
@@ -191,10 +185,10 @@
 }
 .type-1410 .product-details {
   padding: 10px;
-  background: #828bb3;
+  background: #fff568;
 }
 .type-1410 .product-details h6:hover {
-  color: #ffba00;
+  color: #fff;
 }
 .type-1410 .primary-btn {
   background: #ffba00;
@@ -205,7 +199,7 @@
   padding: 10px 15px;
 }
 .type-1410 .primary-btn:hover {
-  background: #828bb3;
+  background: #272939;
 }
 .type-1410 .noUi-handle:focus {
   outline: none;

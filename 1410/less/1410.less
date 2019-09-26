@@ -1,11 +1,14 @@
-@color_hover : #ffba00;
-@color_row : #828bb3;
+@color_hover : #fff568;
+@color_row : #fff568;
+@color_nen: #272939;
+@color_chu: #272939;
 .type-1410{
+    background: @color_nen;
     line-height: 24px;
     font-size: 14px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    padding: 20px 0;
+    padding: 30px 0;
     color: #777777;
     ul{
         list-style: none;
@@ -19,11 +22,11 @@
     }
     .sidebar-categories .head {
         line-height: 60px;
-        background: #828bb3;
+        background: @color_row;
         padding: 0 30px;
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 400;
-        color: #fff;
+        color: @color_chu;
     }
     .sidebar-categories .main-categories {
         padding: 0 20px;
@@ -31,7 +34,7 @@
         box-shadow: 0 10px 10px rgba(153, 153, 153, 0.1);
     }
     .sidebar-filter {
-        margin-top: 50px;
+        margin-top: 30px;
     }
     .sidebar-categories .main-categories {
         padding: 0 20px;
@@ -52,20 +55,19 @@
         margin-right: 10px;
         display: none;
     }
-    .sidebar-filter {
-        margin-top: 50px;
-    }
+   
     .sidebar-filter .common-filter {
         border-bottom: 1px solid #eee;
         padding-bottom: 25px;
+        background: #fff;
     }
     .sidebar-filter .head {
         line-height: 60px;
-    background: #828bb3;
-    padding: 0 30px;
-    font-size: 16px;
-    font-weight: 400;
-    color: #fff;
+        background: @color_row;
+        padding: 0 30px;
+        font-size: 20px;
+        font-weight: 400;
+        color: @color_chu;
     }
     .price-range-area {
         padding: 30px 30px 0 30px;
@@ -101,7 +103,7 @@
         top: -5px;
         border-radius: 50%;
         border: 0px;
-        background: #ffba00;
+        background: @color_row;
         box-shadow: none;
         cursor: pointer;
         -webkit-transition: ease 0.1s;
@@ -110,7 +112,7 @@
         transition: ease 0.1s;
     }
     .price-range-area .noUi-horizontal .noUi-handle:hover {
-        border: 3px solid #ffba00;
+        border: 3px solid @color_row;
         background: #fff;
     }
     .price-range-area .value-wrapper {
@@ -119,7 +121,7 @@
     }
     .price-range-area .price {
         margin-right: 5px;
-        color: #777777;
+        color: @color_chu;
     }
     .price-range-area .value-wrapper .to {
         margin: 0 5px;
@@ -137,18 +139,15 @@
         border: 1px solid #eee;
         padding-right: 50px;
     }
-    .category-list .single-product {
-        margin-top: 30px;
-    }
     .single-product {
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
     .single-product .img-fluid{
-        margin-bottom: 20px;
+        
         width: 100%;
     }
     .product-details{
-        height: 120px;
+        height: 140px;
     }
     .single-product .product-details .price h6 {
         display: inline-block;
@@ -158,8 +157,7 @@
     .single-product .product-details h6 {
         font-size: 16px;
         text-transform: uppercase;
-        font-weight: bold;
-        color: white;
+        color: @color_chu;
         overflow: hidden;
         text-overflow: ellipsis;
         -webkit-line-clamp: 2;
@@ -194,10 +192,10 @@
     }
     .product-details{
         padding: 10px;
-        background: #828bb3;
+        background: @color_row;
     }
     .product-details h6:hover{
-        color:@color_hover;
+        color:#fff;
     }
     .primary-btn {
         background: #ffba00;
@@ -208,7 +206,7 @@
         padding: 10px 15px;
     }
     .primary-btn:hover {
-        background: @color_row;
+        background: @color_nen;
     }
     .noUi-handle:focus{
         outline: none;
